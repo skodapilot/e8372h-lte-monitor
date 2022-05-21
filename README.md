@@ -3,11 +3,11 @@ This bash script can be run as service to monitor LTE signal (SINR, RSRP and RSR
 
 ## Installation
 This instruction was designed for Raspberry Pi installation 
- 1. Copy script file **e8372h_service.sh** to */home/pi*
- 2. Make file executable **chmod +x e8372h_service.sh**
- 3. Copy service file **e8372h_monitor.service** to */etc/systemd/system*
- 4. Reload daemon **sudo systemctl daemon-reload**
- 5. Run service **sudo systemctl enable e8372h_monitor**
+ 1. Copy script file: **e8372h_service.sh** to */home/pi*
+ 2. Make file executable: **chmod +x e8372h_service.sh**
+ 3. Copy service file: **e8372h_monitor.service** to */etc/systemd/system*
+ 4. Reload daemon: **sudo systemctl daemon-reload**
+ 5. Run service: **sudo systemctl enable e8372h_monitor**
 
 ## Metric access Prometheus
  1. SINR metric *e8372h_sinr{}*
