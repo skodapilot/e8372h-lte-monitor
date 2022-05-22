@@ -1,5 +1,5 @@
 # e8372h-lte-monitor
-This bash script can be run as service to monitor LTE signal (SINR, RSRP and RSRQ) of USB modem Huawei E8372H-153 and push metrics at Prometheus service. Script can be extended to monitor any other parameter available by API URL /api/device/signal
+This bash script can be run as service to monitor LTE signal (SINR, RSRP and RSRQ) of USB modem Huawei E8372H-153 and push metrics at Prometheus *pushgateway* service. Script can be extended to monitor any other parameter available by API URL /api/device/signal
 
 ## Installation
 This instruction was designed for Raspberry Pi installation 
